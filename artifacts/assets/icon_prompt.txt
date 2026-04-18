@@ -1,0 +1,60 @@
+APP ICON PROMPT — 好孕日記 HaoYun Diary (1024×1024, iOS App Store)
+=================================================================
+
+Subject / Concept
+-----------------
+A minimalist, emotionally-warm app icon for a Taiwan-focused IVF companion app.
+Central motif: a softly-abstracted "diary leaf" silhouette — a rounded calendar
+page with a single small sprouting seedling (two paired leaves + curved stem)
+rising out of its top edge. The seedling symbolizes new life / 好孕 ("good
+pregnancy"). No faces, no babies, no medical syringes — the imagery must read
+as caring and reassuring, not clinical or intimidating.
+
+Composition & Framing
+---------------------
+- Square 1024×1024 px canvas, sRGB, 72 dpi.
+- Follow Apple's iOS icon grid: keep all meaningful subject matter inside the
+  ~816×816 safe-area square (≈20% margin from each edge). Corners remain pure
+  (Apple applies the rounded mask automatically — do NOT pre-round corners).
+- Subject occupies roughly 55–65% of the frame, optically centered, with a
+  very slight vertical bias upward so the seedling sits on the optical center.
+- No drop shadow outside the icon silhouette; internal soft shadow allowed.
+- Absolutely no gloss, no bevel, no skeuomorphic paper edges — flat-modern.
+
+Color Palette
+-------------
+Primary background: a soft warm gradient from #FDE8EC (top-left, blush pink)
+  to #FFF5E6 (bottom-right, cream). The gradient must be extremely gentle —
+  reads as nearly solid on a 60×60 px Home Screen render.
+Primary subject (diary page): #FFFFFF with a 2 px inner outline in #F4C8D1.
+Accent 1 (seedling leaves): #7FB77E (calm sage green) with a single highlight
+  leaf at #A8D5A3.
+Accent 2 (stem + tiny heart dot on the diary page): #E57EA3 (muted rose).
+Optional micro-detail: one faint horizontal ruled line on the diary page at
+  10% opacity #C9A0A8. No text, no numerals, no logotype.
+
+Style
+-----
+Flat vector, geometric, soft-rounded corners on every inner shape
+(≥6 px radius). 2D only — no 3D rendering, no photoreal textures. Think of
+a cross between modern Taiwanese maternity brand aesthetics (茂盛 / 送子鳥 /
+NUWA) and Apple Health / Flo Period iconography. Gentle, clean, trustworthy.
+
+Hard Constraints (no exceptions)
+--------------------------------
+1. NO TEXT of any kind in the icon — no "好孕", no "HY", no letters, no
+   numerals. Apple App Store guidelines + Human Interface Guidelines favor
+   textless icons.
+2. NO human figures, faces, babies, or body parts.
+3. NO medical instruments (syringes, vials, stethoscopes) — the app must not
+   read as a medical device (Apple review risk per guideline 1.4.1).
+4. NO trademarked brand marks (no LINE green, no Apple logo, no Flo tulip).
+5. NO transparency in the background — must be a fully opaque 1024×1024
+   PNG. Background gradient must cover all four corners.
+6. NO photography or photographic textures; pure vector/flat illustration.
+7. Readable at 60×60 px Home Screen size: test by mentally scaling — the
+   seedling must remain distinguishable from the diary page silhouette.
+
+Deliverable
+-----------
+Single PNG, 1024×1024, sRGB, no alpha. Named icon.png.

@@ -1,0 +1,100 @@
+{
+  "title": "好孕日記 HaoYun Diary — 20s App Store Preview",
+  "aspect_ratio": "9:19.5",
+  "resolution_primary": "886x1920 (6.7\" App Store preview spec)",
+  "duration_s": 20,
+  "fps": 30,
+  "audio": {
+    "music": "soft acoustic piano in E major, 72 BPM, warm and hopeful; fade out in final 1s",
+    "voiceover_lang": "zh-TW female, gentle pace, ~24 syllables per scene",
+    "captions_burned_in": true,
+    "caption_lang_primary": "zh-TW",
+    "caption_lang_secondary": "en (smaller, below zh-TW)"
+  },
+  "color_grade": "blush-cream palette matching icon: #FDE8EC → #FFF5E6 backgrounds, rose accent #E57EA3, sage accent #7FB77E",
+  "scenes": [
+    {
+      "id": 1,
+      "t_start_s": 0.0,
+      "t_end_s": 3.0,
+      "screen": "Title card (no device mock)",
+      "visual": "Icon motif (diary page + sage seedling) scales up from 30% to 60% center-frame on blush gradient; app wordmark '好孕日記' fades in below at t=1.5s.",
+      "caption_zh": "台灣第一款中文試管日記",
+      "caption_en": "Taiwan's first IVF diary in 繁體中文",
+      "voiceover_zh": "走進試管療程，你不再一個人。"
+    },
+    {
+      "id": 2,
+      "t_start_s": 3.0,
+      "t_end_s": 6.5,
+      "screen": "S2 TodayView",
+      "visual": "iPhone 15 Pro Max mock slides in from right. Camera push-in on TodaysInjectionsList; a finger taps the Gonal-F row and the checkmark animates from empty to filled pink. Reminder toast slides down: '💊 下一針 21:00 — Cetrotide'",
+      "caption_zh": "打針不漏，提醒貼心",
+      "caption_en": "Never miss an injection",
+      "voiceover_zh": "每一針，都有專屬時間的提醒。"
+    },
+    {
+      "id": 3,
+      "t_start_s": 6.5,
+      "t_end_s": 10.0,
+      "screen": "S3 CycleDiaryView → DayDetailSheet",
+      "visual": "Calendar grid zoom; tapping day 10 presents DayDetailSheet. MoodSlider thumb animates 3→4. Two side-effect chips (頭痛, 腹脹) light up pink. Coping-prompt card slides up with animated breathing circle '4-7-8 呼吸'.",
+      "caption_zh": "心情有靠，中文陪伴",
+      "caption_en": "Mood + coping prompts, in 繁體中文",
+      "voiceover_zh": "卵泡期的脹痛，我們一起用呼吸法走過。"
+    },
+    {
+      "id": 4,
+      "t_start_s": 10.0,
+      "t_end_s": 13.5,
+      "screen": "S4 SubsidyEstimatorView",
+      "visual": "AgeField types '38', AttemptNumberStepper ticks up to 2. SubsidyResultCard morphs: 'NT$ 150,000' fades out, 'NT$ 100,000' fades in with a subtle count-up animation. RulesAsOfLabel '規則版本：2026-04' highlights.",
+      "caption_zh": "補助額度，一鍵算清",
+      "caption_en": "HPA 2025 subsidy math, built in",
+      "voiceover_zh": "國健署規則，自動替你算好。"
+    },
+    {
+      "id": 5,
+      "t_start_s": 13.5,
+      "t_end_s": 17.0,
+      "screen": "S7 CompareView",
+      "visual": "Two-column CompareView slides up. Rows reveal left-to-right in staggered 60ms waterfall. β-hCG row emphasizes with a brief rose glow. Bottom button '匯出為 PDF 給醫師' pulses once.",
+      "caption_zh": "兩次療程，一眼比對",
+      "caption_en": "Compare cycles for smarter consults",
+      "voiceover_zh": "把每一次的數字，都帶去給醫師看。"
+    },
+    {
+      "id": 6,
+      "t_start_s": 17.0,
+      "t_end_s": 20.0,
+      "screen": "Closing card",
+      "visual": "Device fades out; icon returns to center on blush gradient at 50% scale. Wordmark '好孕日記' + tagline '打針不漏・心情有靠・補助算得清' fade in. 'Available on the App Store' badge bottom-center at t=18.5s.",
+      "caption_zh": "好孕日記 — 從今天開始記錄",
+      "caption_en": "HaoYun Diary — start today",
+      "voiceover_zh": "好孕日記，陪你走完每一次療程。"
+    }
+  ],
+  "transitions": "Cross-fades of 250ms between scenes 1→2, 2→3, 3→4, 4→5, 5→6. No hard cuts. No Ken Burns on device mocks.",
+  "typography": {
+    "headline_font": "Noto Sans TC Bold for zh-TW, SF Pro Display Bold for en",
+    "body_font": "Noto Sans TC Regular / SF Pro Text Regular",
+    "caption_size_zh_px": 72,
+    "caption_size_en_px": 36,
+    "caption_color": "#2A1F26",
+    "caption_stroke": "2px #FFFFFF for readability over mock screens"
+  },
+  "compliance_notes": [
+    "No fabricated App Store star ratings or review counts",
+    "No medical claims; all copy is descriptive (記錄, 試算) not diagnostic",
+    "Disclaimer '本 App 非醫療器材，請遵醫囑' visible on scene 5 CompareView footer",
+    "No real patient photos; only illustrated UI and icon motif",
+    "No trademarked drug brand logos shown; generic + zh labels only"
+  ],
+  "deliverables": {
+    "master": "preview_67.mov (886x1920, H.264, 30fps, AAC audio, <500MB)",
+    "alt_61": "preview_61.mov (886x1920 accepted by App Store for 6.1\" devices)",
+    "poster_frame_t_s": 17.5
+  },
+  "generated": false,
+  "note": "Storyboard only — no rendering pipeline wired in this environment. Hand off to motion designer with icon.png + ss_*.md as visual references."
+}
